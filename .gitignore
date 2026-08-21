@@ -1,0 +1,29 @@
+# ── 執行時產生的資料（可重生，不要提交）──
+# 注意：data/uploaded_docs/ 每次按「處理文件並準備 RAG」都會被整個刪除重建，
+#       絕對不要把原始文件放在裡面，原始檔請放 test_docs/ 或專案外。
+data/
+
+# ── 第三方套件快取 ──
+.cache/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ── 虛擬環境 ──
+venv/
+.venv/
+env/
+
+# ── 原始檔備份 ──
+backup/
+
+# ── 編輯器與作業系統 ──
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# ── Office 開啟檔案時產生的鎖定檔 ──
+~$*
