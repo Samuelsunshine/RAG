@@ -27,3 +27,68 @@ desktop.ini
 
 # ── Office 開啟檔案時產生的鎖定檔 ──
 ~$*
+
+# ===== 共用忽略規則（跨電腦同步用）=====
+# Python
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# 壓縮檔（可重新產生）
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.tgz
+
+# 模型權重與大型二進位（可重新下載/訓練）
+*.gguf
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.hdf5
+*.onnx
+*.joblib
+*.model
+
+# 影音
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+
+# 資料庫
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+
+# 環境與金鑰（絕不提交）
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# 系統
+.DS_Store
+Thumbs.db
+desktop.ini
