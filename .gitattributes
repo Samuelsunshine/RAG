@@ -1,1 +1,2 @@
-﻿* -text
+# 與 Mac 端一致：repo 與工作目錄一律使用 LF 換行，避免 Windows 端存成 CRLF 後被提交
+* text=auto eol=lf
